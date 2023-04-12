@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 50px;
+  width:100%;
+  background-color:#FF9A4B;
+  margin-bottom: 50px;
+}
+
+
+.model{
+  height: 400px;
+  width: 100%;
+  background-color: #EEEEEE;
+}
+
+.mode2{
+  height: 400px;
+  width: 100%;
+}
+
+.mode3{
+  height: 400px;
+  width: 100%;
+  background-color: #EEEEEE;
+}
