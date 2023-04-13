@@ -4,27 +4,113 @@
   box-sizing: border-box;
 }
 
+/*ヘッダー*/
+
 header{
-  height: 50px;
-  width:100%;
-  background-color:#FF9A4B;
-  margin-bottom: 50px;
-}
-
-
-.model{
-  height: 400px;
+  height: 70px;
   width: 100%;
-  background-color: #EEEEEE;
+  background-color:#EC715F;
 }
 
-.mode2{
-  height: 400px;
-  width: 100%;
+.head-label{
+  height: 70px;
+  width: 1024px;
+  margin: 0 auto;
+  /*display: flex;*/
 }
 
-.mode3{
-  height: 400px;
-  width: 100%;
-  background-color: #EEEEEE;
+.nav-list{
+  text-align: right;
+  display: flex;
 }
+
+.nav-list-item{
+  font-size:16px;
+  color:#FAFAFA;
+  list-style: none;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/*メインビジュアル*/
+
+.lore-lpsum{
+  height: 650px;
+  width: 100%;
+  background-color:#FF3300;
+}
+
+.portfolio{
+  height: 841px;
+  width: 100%;
+  background-color:#ECEFF1;
+
+}
+
+.portfolio-text{
+  height: 841px;
+  width: 920px;
+  background-color:#3366FF;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin: 0 auto;
+}
+
+.feature-text{
+  height: 559px;
+  width: 980px;
+  background-color:#00FF00;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin: 0 auto;
+}
+
+.profile-text{
+  height: 581px;
+  width: 1024px;
+  background-color:#00FFFF;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin: 0 auto;
+}
+
+.contact-text{
+  height: 406px;
+  width: 800px;
+  background-color:#800080;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin: 0 auto;
+}
+
+footer{
+  height: 60px;
+  width: 100%;
+  background-color:#EC715F;
+  display:table;
+  text-align: center;
+}
+
+.footer-text{
+  font-size:16px;
+  color:#FAFAFA;
+  display:table-cell;
+  vertical-align:middle;
+}
+
+/*.model{*/
+/*  height: 400px;*/
+/*  width: 100%;*/
+/*  background-color: #EEEEEE;*/
+/*}*/
+
+/*.mode2{*/
+/*  height: 400px;*/
+/*  width: 100%;*/
+/*}*/
+
+/*.mode3{*/
+/*  height: 400px;*/
+/*  width: 100%;*/
+/*  background-color: #EEEEEE;*/
+/*}*/
