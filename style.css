@@ -17,11 +17,18 @@ header{
   width: 1024px;
   margin: 0 auto;
   /*display: flex;*/
+
 }
 
 .nav-list{
   text-align: right;
   display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-list > :first-child {
+  margin-right: auto;
 }
 
 .nav-list-item{
@@ -31,6 +38,13 @@ header{
   margin-left: 30px;
   margin-right: 30px;
 }
+
+/*リンクレイアウト*/
+.nav-list-item > a{
+   color:#FAFAFA;
+   text-decoration: none;
+}
+
 
 /*メインビジュアル*/
 
