@@ -48,11 +48,28 @@ header{
 
 /*メインビジュアル*/
 
-.lore-lpsum{
+.lorem-lpsum{
   height: 650px;
   width: 100%;
-  background-color:#FF3300;
+  background-image: url(img/mv.png);
 }
+
+.lorem-lpsum-list{
+  text-align: center;
+  margin-top: 200px;
+  color:#FAFAFA;
+}
+
+.lorem-lpsum-text1{
+  font-size: 64px;
+  margin-bottom: 10px;
+}
+
+.lorem-lpsum-text2{
+  font-size: 20px;
+}
+
+
 
 .portfolio{
   height: 841px;
