@@ -52,15 +52,18 @@ header{
   height: 650px;
   width: 100%;
   background-image: url(img/mv.png);
+  background-size:cover;
+  background-position: center;
+
 }
 
 .lorem-lpsum-list{
   text-align: center;
-  margin-top: 200px;
-  color:#FAFAFA;
+  color: #FAFAFA;
 }
 
 .lorem-lpsum-text1{
+  padding-top: 200px;
   font-size: 64px;
   margin-bottom: 10px;
 }
@@ -68,8 +71,6 @@ header{
 .lorem-lpsum-text2{
   font-size: 20px;
 }
-
-
 
 .portfolio{
   height: 841px;
