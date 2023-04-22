@@ -90,18 +90,18 @@ header{
   text-align: center;
 }
 
-.portfolio-item1{
+.text-item1{
   font-size: 32px;
   padding-bottom: 8px;
 }
 
-.portfolio-border{
+.text-border{
   display: inline-block;
   width: 70px;
   border-bottom: 3px #EC715F solid;
 }
 
-.portfolio-item2{
+.text-item2{
   font-size: 16px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -128,13 +128,43 @@ header{
 }
 
 .feature-text{
-  height: 559px;
+  height: auto;
   width: 980px;
-  background-color:#00FF00;
   padding-top: 90px;
   padding-bottom: 90px;
   margin: 0 auto;
+  text-align: center;
 }
+
+.feature-box{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+}
+
+.feature-item{
+  height: auto;
+  width: 320px;
+  margin-right: 10px;
+}
+
+.feature-title{
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size: 20px;
+  color:#000000;
+}
+
+.feature-comment{
+  font-size: 16px;
+  color:#000000;
+}
+
+.feature-box > :nth-child(3){
+  margin-right: 0px;
+}
+
 
 .profile-text{
   height: 581px;
@@ -144,6 +174,8 @@ header{
   padding-bottom: 90px;
   margin: 0 auto;
 }
+
+
 
 .contact-text{
   height: 406px;
