@@ -165,15 +165,64 @@ header{
   margin-right: 0px;
 }
 
+.profile{
+  height: 581px;
+  width: auto;
+  background-color: #ECEFF1;
+}
 
 .profile-text{
   height: 581px;
   width: 1024px;
-  background-color:#00FFFF;
+  /*background-color:#00FFFF;*/
   padding-top: 90px;
   padding-bottom: 90px;
   margin: 0 auto;
+  text-align: center;
 }
+
+.profile-box{
+  height: 250px;
+  width: 1024px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profile-item{
+  height: 250px;
+  width: 512px;
+}
+
+/*①画像の編集*/
+.blog-image{
+  height: 250px;
+  width: 250px;
+  border-radius:90%;
+}
+
+/*②profile-areaの編集*/
+.profile-box > :nth-child(2){
+  text-align: left;
+}
+
+/*フォントサイズと色*/
+.profile-filed1{
+  font-size:20px;
+  color:#000000;
+  margin-bottom: 5px;
+}
+
+.profile-filed2{
+  font-size:16px;
+  color:#000000;
+}
+
+.profile-area > :nth-child(2){
+  margin-bottom: 20px;
+}
+
+
 
 
 
