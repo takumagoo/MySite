@@ -222,18 +222,50 @@ header{
   margin-bottom: 20px;
 }
 
-
-
-
-
 .contact-text{
-  height: 406px;
+  height: 506px;
   width: 800px;
-  background-color:#800080;
+  /*background-color:#800080;*/
   padding-top: 90px;
   padding-bottom: 90px;
   margin: 0 auto;
+  text-align: center;
 }
+
+.contact-box{
+  height: 80px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-item{
+  height: 80px;
+  width: 400px;
+  text-align: center;
+}
+
+.contact-area{
+  /*text-align: justify;*/
+  /*text-justify: inter-ideograph;*/
+  color:#000000;
+  margin-bottom: 20px;
+}
+.contact-area h3{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-item h3{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-icon{
+  margin-right: 20px;
+}
+
 
 footer{
   height: 60px;
